@@ -33,3 +33,14 @@ flacToMp3('demo.flac', 'demo.mp3', (inputFile) => {
   console.log(`${inputFile} is converted`);
 });
 
+/*
+flacToMp3('demo.flac', 'demo.mp3', function(inputFile) {
+  console.log(`${inputFile} is converted`);
+});
+
+flacToMp3('demo.flac', 'demo.mp3', namFunc);
+
+function namFunc(inputFile) {
+  console.log(`${inputFile} is converted`);
+}*/
+
